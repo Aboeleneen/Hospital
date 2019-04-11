@@ -1,0 +1,94 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    perspective: 600px ;
+}
+
+.card >div {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #138daf;
+    border-radius: 10px;
+    text-align: center;
+    color: #de1818;
+    background: #326d7b57;
+ }
+.card .front header
+{
+    
+    width: 100% ;
+    height:80px ;
+    margin-bottom: 55px ;
+    border-radius: 10px 10px 0 0
+}
+.card .front img
+{
+    width: 100px ;
+    height: 100px ;
+    
+    position: relative;
+    top: 25px ;
+    
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0d50ece8;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #0033b9;
+    border-radius: 12px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.btn-danger {
+    color: #f5f5f5;
+    background-color: #ff0700;
+    border-color: #e20000;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+.card
+{
+    width: 300px ;
+    height: 400px ;
+    margin: 50px auto ;
+    position: relative;
+    transform-style:preserve-3d ;
+    transition: all 1.5s ease-in-out;
+}
